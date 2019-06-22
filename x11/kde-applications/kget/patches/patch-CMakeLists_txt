@@ -1,0 +1,55 @@
+$OpenBSD$
+
+Index: CMakeLists.txt
+--- CMakeLists.txt.orig
++++ CMakeLists.txt
+@@ -73,7 +73,7 @@ include_directories(${CMAKE_SOURCE_DIR} ${CMAKE_BINARY
+ 
+ set(CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/cmake/modules ${CMAKE_MODULE_PATH})
+ 
+-find_package(Sqlite QUIET)
++find_package(Sqlite)
+ set_package_properties(SQLITE_FOUND PROPERTIES DESCRIPTION "SQLite is a Binary-Database" TYPE RECOMMENDED PURPOSE "Needed for the SQLite-Backend of the KGet-History") 
+ 
+ find_package(Qca-qt5 2.1.0)
+@@ -88,7 +88,7 @@ set_package_properties(Gpgmepp_FOUND PROPERTIES DESCRI
+ find_package(KF5Torrent 2.1)
+ set_package_properties(KF5Torrent_FOUND PROPERTIES DESCRIPTION "Backend Library of KTorrent" TYPE RECOMMENDED PURPOSE "Needed to build KGet bittorrent support.")
+ 
+-find_package(LibMms QUIET)
++find_package(LibMms)
+ set_package_properties(LIBMMS_FOUND PROPERTIES DESCRIPTION "Library to read mms streams" TYPE RECOMMENDED PURPOSE "Needed to build KGet mms support.") 
+ 
+ set(kget_adaptor_SRCS
+@@ -140,7 +140,10 @@ include_directories(
+     ${CMAKE_CURRENT_SOURCE_DIR}
+     ${CMAKE_CURRENT_SOURCE_DIR}/core/
+     ${CMAKE_CURRENT_BINARY_DIR}/core/
+-    ${CMAKE_CURRENT_BINARY_DIR}
++    ${Boost_INCLUDE_DIRS}
++    ${CMAKE_INSTALL_PREFIX}/include/
++    ${CMAKE_INSTALL_PREFIX}/include/gpgme++/
++    ${CMAKE_INSTALL_PREFIX}/include/qgpgme/
+ )
+ 
+ if(SQLITE_FOUND)
+@@ -223,7 +226,8 @@ if (Qca-qt5_FOUND)
+ endif ()
+ 
+ if (Gpgmepp_FOUND)
+-    target_link_libraries(kgetcore QGpgme Gpgmepp)
++    target_include_directories(kgetcore PRIVATE "$<BUILD_INTERFACE:${CMAKE_INSTALL_PREFIX}/lib>")
++    target_link_libraries(kgetcore gpgmepp qgpgme)
+     kde_enable_exceptions()
+ endif()
+ 
+@@ -324,7 +328,8 @@ if(CMAKE_BUILD_TYPE MATCHES debugfull)
+ endif()
+ 
+ if (QGpgme_FOUND)
+-  target_link_libraries(kget QGpgme)
++  target_include_directories(kget PRIVATE "$<BUILD_INTERFACE:${CMAKE_INSTALL_PREFIX}/lib>")
++  target_link_libraries(kget qgpgme)
+ endif()
+ 
+ install(TARGETS kget ${INSTALL_TARGETS_DEFAULT_ARGS})

@@ -1,0 +1,15 @@
+$OpenBSD$
+
+Index: transfer-plugins/metalink/CMakeLists.txt
+--- transfer-plugins/metalink/CMakeLists.txt.orig
++++ transfer-plugins/metalink/CMakeLists.txt
+@@ -3,6 +3,9 @@ SET(SUPPORTED_KGET_MIMETYPES "${SUPPORTED_KGET_MIMETYP
+ 
+ include_directories(
+    ../../
++  ${CMAKE_INSTALL_PREFIX}/include/
++  ${CMAKE_INSTALL_PREFIX}/include/gpgme++/
++  ${CMAKE_INSTALL_PREFIX}/include/qgpgme/
+ )
+ 
+ set(kget_metalinkfactory_PART_SRCS
