@@ -4,6 +4,9 @@
 
 All these ports require reviews and tests.
 
+- development
+    - [grantleetheme](x11/kde-applications/grantleetheme)
+    - [kcontacts](x11/kde-applications/kcontacts)
 - education
     - [kruler](x11/kde-applications/kturtle)
     - [kwordquiz](x11/kde-applications/kwordquiz)
@@ -23,6 +26,3 @@ All these ports require reviews and tests.
     - [kget](x11/kde-applications/kget)
 - utilities
     - [sweeper](x11/kde-applications/sweeper)
-- development
-    - [grantleetheme](x11/kde-applications/grantleetheme)
-    - [kcontacts](x11/kde-applications/kcontacts)
