@@ -19,9 +19,7 @@ LIB_DEPENDS +=	devel/kf5/kcompletion \
 		devel/kf5/kjobwidgets \
 		devel/kf5/kservice \
 		devel/kf5/kwidgetsaddons \
-		x11/kde-applications/libkexiv2 \
-		x11/kde-applications/libkdcraw
-
-NO_TEST =	Yes
+		x11/kde-applications/libkdcraw \
+		x11/kde-applications/libkexiv2
 
 .include <bsd.port.mk>

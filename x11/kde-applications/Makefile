@@ -1,4 +1,16 @@
 # $OpenBSD: Makefile,v 1.48 2019/04/15 18:43:35 rsadowski Exp $
+#
+# port checklist
+# - portcheck,
+# - port-lib-depends-check
+# - @sample (SYSCONFDIR)
+# - @conflict
+# - @pktpath (with KDE4 ports)
+# - DESCR (copied from KDE4)
+# - sorted *_DEPENDS
+# - HOMEPAGE
+# - COMMENT
+# - Checkout test
 
      SUBDIR =
 
@@ -24,9 +36,7 @@
 
      # education
      SUBDIR += analitza
-     SUBDIR += artikulate
-     SUBDIR += blinken
-     SUBDIR += cantor
+     SUBDIR += artikulate SUBDIR += blinken SUBDIR += cantor
      SUBDIR += kalgebra
      SUBDIR += kalzium
      SUBDIR += kanagram
@@ -39,12 +49,12 @@
      SUBDIR += kmplot
      SUBDIR += ktouch
      #SUBDIR += kturtle
-     #SUBDIR += kwordquiz
+     SUBDIR += kwordquiz			# passed: runtime, checklist
      SUBDIR += marble
      #SUBDIR += kwrite
-     #SUBDIR += minuet
+     SUBDIR += minuet				# passed: runtime, checklist
      #SUBDIR += parley
-     #SUBDIR += rocs
+     SUBDIR += rocs				# passed: runtime, checklist
      SUBDIR += step
 
      # games
@@ -71,7 +81,7 @@
      SUBDIR += kmines
      SUBDIR += knavalbattle
      SUBDIR += knetwalk
-     #SUBDIR += knights
+     SUBDIR += knights				# TODO fix runtime, passed: checklist
      SUBDIR += kolf
      SUBDIR += kollision
      SUBDIR += konquest
@@ -91,12 +101,12 @@
 
      # graphics
      SUBDIR += gwenview
-     #SUBDIR += kamera
-     #SUBDIR += kcolorchooser
+     SUBDIR += kamera				# passed: NO runtime no consumer, checklist
+     SUBDIR += kcolorchooser			# passed: runtime, checklist
      SUBDIR += kdegraphics-mobipocket
-     #SUBDIR += kdegraphics-thumbnailers
-     #SUBDIR += kolourpaint
-     #SUBDIR += kruler
+     SUBDIR += kdegraphics-thumbnailers		# passed: NO runtime no consumer, checklist
+     SUBDIR += kolourpaint			# passed: runtime, checklist
+     SUBDIR += kruler				# passed: runtime, checklist
      SUBDIR += okular
      SUBDIR += spectacle
      SUBDIR += svgpart
@@ -113,8 +123,8 @@
      #SUBDIR += kwave
 
      # internet / network
-     #SUBDIR += kdenetwork-filesharing
-     #SUBDIR += kget
+     SUBDIR += kdenetwork-filesharing		# passed: NO runtime, no consumer, checklist
+     SUBDIR += kget				# TODO fix runtime, passed: checklist
      SUBDIR += kio-extras
      #SUBDIR += kmailtransport (KF5Akonadi)
      #SUBDIR += kopete
@@ -167,7 +177,7 @@
      #SUBDIR += ktimer
      #SUBDIR += kwalletmanager
      #SUBDIR += print-manager
-     #SUBDIR += sweeper
+     SUBDIR += sweeper				# passed: runtime, checklist
 
      # webdev
      #SUBDIR += kimagemapeditor
@@ -197,7 +207,7 @@
      #SUBDIR += akonadi-search
      #SUBDIR += akonadiconsole
      #SUBDIR += baloo-widgets
-     #SUBDIR += grantleetheme
+     SUBDIR += grantleetheme			# passed: no consumer, checklist
      #SUBDIR += incidenceeditor
      #SUBDIR += kaccounts-integration
      #SUBDIR += kaccounts-providers
@@ -205,7 +215,7 @@
      #SUBDIR += kblog
      SUBDIR += kcalcore
      #SUBDIR += kcalutils
-     #SUBDIR += kcontacts
+     SUBDIR += kcontacts			# passed: no consumer, checklist
      #SUBDIR += kdav
      SUBDIR += kdeedu-data
      #SUBDIR += kidentitymanagement

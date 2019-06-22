@@ -27,9 +27,9 @@ MODKDE5_DOCS = yes
 
 MODULES +=	x11/kde-applications
 
-BUILD_DEPENDS +=x11/qt5/qtquickcontrols \
-		x11/qt5/qtsvg \
-		devel/boost
+BUILD_DEPENDS +=devel/boost \
+		x11/qt5/qtquickcontrols \
+		x11/qt5/qtsvg
 RUN_DEPENDS +=	x11/qt5/qtquickcontrols \
 		x11/qt5/qtsvg
 

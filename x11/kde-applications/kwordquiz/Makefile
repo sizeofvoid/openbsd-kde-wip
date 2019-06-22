@@ -18,6 +18,7 @@ WANTLIB += Qt5Widgets Qt5Xml c m
 
 MODKDE5_ICON_CACHE = yes
 MODKDE5_TRANSLATIONS = yes
+MODKDE5_DESKTOP_FILE = yes
 MODKDE5_DOCS = yes
 
 MODULES +=	x11/kde-applications \

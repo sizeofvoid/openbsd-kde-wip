@@ -25,8 +25,8 @@ MODULES +=	x11/kde-applications \
 BUILD_DEPENDS +=x11/qt5/qtquickcontrols
 RUN_DEPENDS +=	x11/qt5/qtquickcontrols
 
-LIB_DEPENDS +=	devel/kf5/kcoreaddons \
-		audio/fluidsynth \
+LIB_DEPENDS +=	audio/fluidsynth \
+		devel/kf5/kcoreaddons \
 		devel/kf5/kcrash \
 		devel/kf5/ki18n \
 		x11/qt5/qtdeclarative \
