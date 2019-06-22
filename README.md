@@ -1,7 +1,12 @@
-# openbsd-kde-wip
 OpenBSD work in progress KDE ports
+======================
 
-# Done but not imported to CVS
+Done but not imported to CVS
+Finished but not yet imported to CVS
+==================================
+
+All these ports require reviews and tests.
+
 - education
     - kturtle
     - kwordquiz
