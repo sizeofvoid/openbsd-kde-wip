@@ -5,6 +5,8 @@
 All these ports require reviews and tests.
 
 - development
+    - :ok: [akonadi](x11/kde-applications/akonadi)
+    - :ok: [akonadi-mime](x11/kde-applications/akonadi-mime)
     - :ok: [grantleetheme](x11/kde-applications/grantleetheme)
     - :ok: [kcontacts](x11/kde-applications/kcontacts)
 - education
@@ -27,7 +29,7 @@ All these ports require reviews and tests.
        -  runtime issue: crazy runtime behavior. Sometimes it's stuck, floating point exception
     - :ok: [picmi](x11/kde-applications/picmi)
 - utilities
-    - :ok: [sweeper](x11/kde-applications/kwalletmanager)
+    - :ok: [kwalletmanager](x11/kde-applications/kwalletmanager)
     - :ok: [sweeper](x11/kde-applications/sweeper)
 
 ## How to use this tree

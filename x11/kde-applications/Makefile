@@ -197,12 +197,12 @@
      #SUBDIR += ktp-text-ui
 
      # development environment
-     #SUBDIR += akonadi
+     SUBDIR += akonadi				# passed: runtime, checklist
      #SUBDIR += akonadi-calendar
      #SUBDIR += akonadi-calendar-tools
      #SUBDIR += akonadi-contacts
      #SUBDIR += akonadi-import-wizard
-     #SUBDIR += akonadi-mime
+     SUBDIR += akonadi-mime			# passed: no consumer, checklist
      #SUBDIR += akonadi-notes
      #SUBDIR += akonadi-search
      #SUBDIR += akonadiconsole
