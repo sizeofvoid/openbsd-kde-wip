@@ -27,6 +27,7 @@ All these ports require reviews and tests.
        -  runtime issue: crazy runtime behavior. Sometimes it's stuck, floating point exception
     - :ok: [picmi](x11/kde-applications/picmi)
 - utilities
+    - :ok: [sweeper](x11/kde-applications/kwalletmanager)
     - :ok: [sweeper](x11/kde-applications/sweeper)
 
 ## How to use this tree

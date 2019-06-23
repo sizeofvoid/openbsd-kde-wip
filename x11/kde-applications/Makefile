@@ -175,7 +175,7 @@
      #SUBDIR += kgpg
      #SUBDIR += kteatime
      #SUBDIR += ktimer
-     #SUBDIR += kwalletmanager
+     SUBDIR += kwalletmanager			# passed: runtime, checklist
      #SUBDIR += print-manager
      SUBDIR += sweeper				# passed: runtime, checklist
 
