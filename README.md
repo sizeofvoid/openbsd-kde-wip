@@ -37,7 +37,7 @@ All these ports require reviews and tests.
 One way to use this tree is to clone it into your `/usr/ports/mystuff`
 directory and adjust `PORTSDIR_PATH` accordingly in /etc/mk.conf:
 
-	PORTSDIR_PATH={PORTSDIR}/mystuff/openbsd-kde-wip:${PORTSDIR}:${PORTSDIR}
+	PORTSDIR_PATH=${PORTSDIR}/mystuff/openbsd-kde-wip:${PORTSDIR}
 
 In the above example, a port with version 1 in `/usr/ports/mystuff/openbsd-kde-wip`,
 version 2 in cvs.  Then, the version in openbsd-kde-wip will be picked up before
