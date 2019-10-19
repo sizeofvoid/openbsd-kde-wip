@@ -6,7 +6,6 @@ CATEGORIES =	devel mail
 
 SHARED_LIBS +=  KF5Contacts               0.0 # 5.1
 
-KDE5 =		Yes
 
 WANTLIB += ${COMPILER_LIBCXX} KF5Codecs KF5ConfigCore KF5CoreAddons
 WANTLIB += KF5I18n Qt5Core Qt5Gui m

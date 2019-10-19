@@ -6,7 +6,6 @@ CATEGORIES =	games
 
 HOMEPAGE =	https://www.kde.org/applications/games/kwordquiz
 
-KDE5 =		Yes
 
 WANTLIB += ${COMPILER_LIBCXX} KEduVocDocument KF5Attica KF5Auth
 WANTLIB += KF5Codecs KF5ConfigCore KF5ConfigGui KF5ConfigWidgets

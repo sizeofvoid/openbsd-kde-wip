@@ -4,7 +4,6 @@ COMMENT =	KDE tool for sweeping unwanted traces from system
 DISTNAME =	sweeper-${VERSION}
 CATEGORIES =	devel
 
-KDE5 =		Yes
 
 WANTLIB += ${COMPILER_LIBCXX} KF5ActivitiesStats KF5Auth KF5Bookmarks
 WANTLIB += KF5Codecs KF5ConfigCore KF5ConfigGui KF5ConfigWidgets

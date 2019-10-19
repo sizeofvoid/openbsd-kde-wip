@@ -4,7 +4,6 @@ COMMENT =	grantlee theme library
 DISTNAME =	grantleetheme-${VERSION}
 CATEGORIES =	devel x11
 
-KDE5 =		Yes
 
 SHARED_LIBS +=  KF5GrantleeTheme          0.0 # 5.9
 

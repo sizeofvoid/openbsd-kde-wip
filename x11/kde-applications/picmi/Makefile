@@ -6,7 +6,6 @@ CATEGORIES =	games
 
 HOMEPAGE =	https://www.kde.org/applications/games/picmi
 
-KDE5 =		Yes
 
 WANTLIB += ${COMPILER_LIBCXX} KF5Auth KF5Codecs KF5Completion
 WANTLIB += KF5ConfigCore KF5ConfigGui KF5ConfigWidgets KF5CoreAddons

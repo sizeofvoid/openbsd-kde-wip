@@ -6,7 +6,6 @@ CATEGORIES =	audio education
 
 HOMEPAGE =	https://minuet.kde.org/
 
-KDE5 =		Yes
 
 SHARED_LIBS +=  minuetinterfaces          0.0 # 0.3
 

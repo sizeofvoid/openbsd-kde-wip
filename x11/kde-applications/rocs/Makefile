@@ -8,7 +8,6 @@ HOMEPAGE =	https://www.kde.org/applications/education/rocs/
 
 SHARED_LIBS +=  rocsgraphtheory        0.0 # 0.0
 
-KDE5 =		Yes
 
 WANTLIB += ${COMPILER_LIBCXX} Grantlee_Templates KF5Archive KF5Auth
 WANTLIB += KF5Codecs KF5Completion KF5ConfigCore KF5ConfigGui

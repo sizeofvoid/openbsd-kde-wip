@@ -4,7 +4,6 @@ COMMENT =	thumbnailers for various graphics file formats
 DISTNAME =	kdegraphics-thumbnailers-${VERSION}
 CATEGORIES =	devel graphics
 
-KDE5 =		Yes
 
 WANTLIB += ${COMPILER_LIBCXX} KF5Completion KF5ConfigCore KF5CoreAddons
 WANTLIB += KF5JobWidgets KF5KDcraw KF5KExiv2 KF5KIOCore KF5KIOWidgets

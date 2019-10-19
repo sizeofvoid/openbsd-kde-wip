@@ -6,7 +6,6 @@ CATEGORIES =	graphics
 
 HOMEPAGE =	https://www.kde.org/applications/graphics/kruler/
 
-KDE5 =		Yes
 
 WANTLIB += ${COMPILER_LIBCXX} KF5Auth KF5Codecs KF5ConfigCore
 WANTLIB += KF5ConfigGui KF5ConfigWidgets KF5CoreAddons KF5I18n

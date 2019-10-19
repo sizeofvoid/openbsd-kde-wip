@@ -8,7 +8,6 @@ HOMEPAGE =	https://www.kde.org/applications/internet/kget/
 
 SHARED_LIBS +=  kgetcore                  0.0 # 5.0
 
-KDE5 =		Yes
 
 WANTLIB += ${COMPILER_LIBCXX} KF5Archive KF5Auth KF5Bookmarks
 WANTLIB += KF5Codecs KF5Completion KF5ConfigCore KF5ConfigGui
