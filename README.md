@@ -28,6 +28,8 @@ All these ports require reviews and tests.
     - :no_entry: [kget](x11/kde-applications/kget)
        -  runtime issue: crazy runtime behavior. Sometimes it's stuck, floating point exception
     - :ok: [picmi](x11/kde-applications/picmi)
+- multimedia
+    - :ok: [juk](x11/kde-applications/juk)
 - utilities
     - :ok: [kwalletmanager](x11/kde-applications/kwalletmanager)
     - :ok: [sweeper](x11/kde-applications/sweeper)

@@ -1,0 +1,14 @@
+$OpenBSD$
+
+Index: tag.cpp
+--- tag.cpp.orig
++++ tag.cpp
+@@ -21,7 +21,7 @@
+ 
+ #include <QFile>
+ 
+-#include <taglib/tag.h>
++#include <tag.h>
+ #include <tfile.h>
+ #include <audioproperties.h>
+ #include <id3v2framefactory.h>
