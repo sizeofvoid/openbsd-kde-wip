@@ -31,6 +31,11 @@ All these ports require reviews and tests.
 - multimedia
     - :ok: [juk](x11/kde-applications/juk)
 - utilities
+    - :ok: [filelight](x11/kde-applications/filelight)
+    - :ok: [kcharselect](x11/kde-applications/kcharselect)
+    - :ok: [kbackup](x11/kde-applications/kbackup)
+    - :ok: [kteatime](x11/kde-applications/kteatime)
+    - :ok: [ktimer](x11/kde-applications/ktimer)
     - :ok: [kwalletmanager](x11/kde-applications/kwalletmanager)
     - :ok: [sweeper](x11/kde-applications/sweeper)
 

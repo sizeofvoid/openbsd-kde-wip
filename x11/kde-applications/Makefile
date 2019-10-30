@@ -165,16 +165,16 @@
 
      # utilities
      SUBDIR += ark
-     #SUBDIR += filelight
-     #SUBDIR += kbackup
+     SUBDIR += filelight
+     SUBDIR += kbackup
      SUBDIR += kcalc
      #SUBDIR += kcharselect
      #SUBDIR += kdebugsettings
      #SUBDIR += kdf
      #SUBDIR += kfloppy
      #SUBDIR += kgpg
-     #SUBDIR += kteatime
-     #SUBDIR += ktimer
+     SUBDIR += kteatime
+     SUBDIR += ktimer
      SUBDIR += kwalletmanager			# passed: runtime, checklist
      #SUBDIR += print-manager
      SUBDIR += sweeper				# passed: runtime, checklist
