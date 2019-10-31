@@ -10,6 +10,7 @@ All these ports require reviews and tests.
     - :ok: [grantleetheme](x11/kde-applications/grantleetheme)
     - :ok: [kcontacts](x11/kde-applications/kcontacts)
 - education
+    - :ok: [kturtle](x11/kde-applications/kturtle)
     - :ok: [kwordquiz](x11/kde-applications/kwordquiz)
     - :ok: [minuet](x11/kde-applications/minuet)
     - :ok: [rocs](x11/kde-applications/rocs)

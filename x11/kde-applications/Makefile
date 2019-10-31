@@ -1,4 +1,4 @@
-# $OpenBSD: Makefile,v 1.48 2019/04/15 18:43:35 rsadowski Exp $
+# $OpenBSD: Makefile,v 1.68 2019/04/15 18:43:35 rsadowski Exp $
 #
 # port checklist
 # - portcheck,
@@ -48,7 +48,7 @@
      SUBDIR += klettres
      SUBDIR += kmplot
      SUBDIR += ktouch
-     #SUBDIR += kturtle
+     SUBDIR += kturtle
      SUBDIR += kwordquiz			# passed: runtime, checklist
      SUBDIR += marble
      #SUBDIR += kwrite
