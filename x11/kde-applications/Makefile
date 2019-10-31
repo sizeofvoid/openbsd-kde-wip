@@ -97,7 +97,7 @@
      SUBDIR += kubrick
      SUBDIR += lskat
      SUBDIR += palapeli
-     #SUBDIR += picmi (Qt5WebEngineWidgets mssing)
+     SUBDIR += picmi
 
      # graphics
      SUBDIR += gwenview
