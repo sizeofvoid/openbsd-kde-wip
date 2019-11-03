@@ -36,7 +36,9 @@
 
      # education
      SUBDIR += analitza
-     SUBDIR += artikulate SUBDIR += blinken SUBDIR += cantor
+     SUBDIR += artikulate
+     SUBDIR += blinken
+     SUBDIR += cantor
      SUBDIR += kalgebra
      SUBDIR += kalzium
      SUBDIR += kanagram

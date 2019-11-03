@@ -1,5 +1,7 @@
 @comment $OpenBSD: PLIST,v$
 @conflict kde-l10n-*
+@conflict kde-i18n-*
+@pkgpath x11/kde4/kcolorchooser
 @bin bin/kcolorchooser
 share/applications/org.kde.kcolorchooser.desktop
 share/icons/hicolor/16x16/apps/kcolorchooser.png

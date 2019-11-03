@@ -1,5 +1,6 @@
 @comment $OpenBSD: PLIST,v$
 @conflict kde-l10n-*
+@conflict kde-i18n-*
 @pkgpath x11/kde4/kwordquiz
 @bin bin/kwordquiz
 share/applications/org.kde.kwordquiz.desktop

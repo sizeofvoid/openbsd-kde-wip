@@ -1,5 +1,6 @@
 @comment $OpenBSD: PLIST,v$
 @conflict kde-l10n-*
+@conflict kde-i18n-*
 include/KF5/GrantleeTheme/
 include/KF5/GrantleeTheme/GrantleeKi18nLocalizer
 include/KF5/GrantleeTheme/GrantleeTheme

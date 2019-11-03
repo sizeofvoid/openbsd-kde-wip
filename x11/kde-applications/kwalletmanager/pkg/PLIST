@@ -1,6 +1,7 @@
 @comment $OpenBSD: PLIST,v$
 @conflict kde-l10n-*
 @conflict kde-i18n-*
+@pkgpath x11/kde4/kwalletmanager
 @bin bin/kwalletmanager5
 lib/qt5/plugins/kcm_kwallet5.so
 @bin libexec/kauth/kcm_kwallet_helper5
