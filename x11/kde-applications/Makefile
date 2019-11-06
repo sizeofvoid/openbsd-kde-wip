@@ -121,7 +121,7 @@
      #SUBDIR += k3b
      #SUBDIR += kamoso
      SUBDIR += kdenlive
-     #SUBDIR += kmix
+     SUBDIR += kmix				# passed: runtime, checklist
      #SUBDIR += kwave
 
      # internet / network
