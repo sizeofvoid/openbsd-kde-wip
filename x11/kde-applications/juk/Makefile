@@ -16,7 +16,7 @@ WANTLIB += Qt5Concurrent Qt5Core Qt5DBus Qt5Gui Qt5Network Qt5Svg
 WANTLIB += Qt5Widgets Qt5Xml c m phonon4qt5 tag
 
 MODULES +=	x11/kde-applications \
-		lang/python
+		multimedia/phonon
 
 MODKDE5_DESKTOP_FILE = yes
 MODKDE5_ICON_CACHE = yes
