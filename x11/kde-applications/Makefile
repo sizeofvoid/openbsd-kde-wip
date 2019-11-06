@@ -55,7 +55,7 @@
      SUBDIR += marble
      #SUBDIR += kwrite
      SUBDIR += minuet				# passed: runtime, checklist
-     #SUBDIR += parley
+     #SUBDIR += parley				# Missing Qt5WebEngineWidgets
      SUBDIR += rocs				# passed: runtime, checklist
      SUBDIR += step
 
@@ -174,7 +174,7 @@
      #SUBDIR += kdebugsettings
      #SUBDIR += kdf
      #SUBDIR += kfloppy
-     #SUBDIR += kgpg
+     #SUBDIR += kgpg				# needs akonadi
      SUBDIR += kteatime
      SUBDIR += ktimer
      SUBDIR += kwalletmanager			# passed: runtime, checklist
