@@ -130,8 +130,8 @@
      SUBDIR += kio-extras
      #SUBDIR += kmailtransport (KF5Akonadi)
      #SUBDIR += kopete
-     #SUBDIR += krdc
-     #SUBDIR += krfb
+     SUBDIR += krdc				# passed: runtime, checklist
+     SUBDIR += krfb				# passed: runtime, checklist
      SUBDIR += zeroconf-ioslave
 
      # pim

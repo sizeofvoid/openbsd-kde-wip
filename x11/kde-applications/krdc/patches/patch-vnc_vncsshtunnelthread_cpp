@@ -1,0 +1,15 @@
+$OpenBSD$
+
+Missing include
+
+Index: vnc/vncsshtunnelthread.cpp
+--- vnc/vncsshtunnelthread.cpp.orig
++++ vnc/vncsshtunnelthread.cpp
+@@ -28,6 +28,7 @@
+ 
+ #include <KLocalizedString>
+ 
++#include <errno.h>
+ #include <fcntl.h>
+ #include <arpa/inet.h>
+ #include <netinet/in.h>
