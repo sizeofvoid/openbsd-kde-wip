@@ -170,7 +170,7 @@
      SUBDIR += filelight
      SUBDIR += kbackup
      SUBDIR += kcalc
-     #SUBDIR += kcharselect
+     SUBDIR += kcharselect
      #SUBDIR += kdebugsettings
      #SUBDIR += kdf
      #SUBDIR += kfloppy
