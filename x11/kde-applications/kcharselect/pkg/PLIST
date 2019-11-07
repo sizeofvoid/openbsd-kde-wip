@@ -116,7 +116,7 @@ share/locale/uk/LC_MESSAGES/kcharselect.mo
 share/locale/zh_CN/LC_MESSAGES/kcharselect.mo
 share/locale/zh_TW/LC_MESSAGES/kcharselect.mo
 share/metainfo/
+share/metainfo/org.kde.kcharselect.appdata.xml
 @tag update-desktop-database
 @tag gtk-update-icon-cache %D/share/icons/hicolor
 @tag update-mime-database
-share/metainfo/org.kde.kcharselect.appdata.xml

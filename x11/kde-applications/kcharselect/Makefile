@@ -1,6 +1,6 @@
 # $OpenBSD: Makefile,v 1.1.1.1 2018/07/28 18:52:19 rsadowski Exp $
 
-COMMENT =	KDE character select and clipboard copy
+COMMENT =	KDE character select and clipboard copy tool
 DISTNAME =	kcharselect-${VERSION}
 CATEGORIES =	x11 sysutils
 
@@ -20,7 +20,7 @@ MODULES +=	x11/kde-applications
 
 LIB_DEPENDS =	devel/kf5/kauth \
 		devel/kf5/kbookmarks \
-		devel/kf5/kcodecs \
+		devel/kf5/kconfig \
 		devel/kf5/kconfigwidgets \
 		devel/kf5/kcoreaddons \
 		devel/kf5/kcrash \

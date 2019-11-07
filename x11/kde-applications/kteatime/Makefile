@@ -33,5 +33,4 @@ LIB_DEPENDS +=	devel/kf5/kauth \
 		devel/kf5/kxmlgui \
 		devel/kf5/sonnet
 
-
 .include <bsd.port.mk>

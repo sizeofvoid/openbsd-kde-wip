@@ -122,6 +122,6 @@ share/locale/uk/LC_MESSAGES/ktimer.mo
 share/locale/zh_CN/LC_MESSAGES/ktimer.mo
 share/locale/zh_TW/LC_MESSAGES/ktimer.mo
 share/metainfo/
+share/metainfo/org.kde.ktimer.appdata.xml
 @tag update-desktop-database
 @tag gtk-update-icon-cache %D/share/icons/hicolor
-share/metainfo/org.kde.ktimer.appdata.xml
