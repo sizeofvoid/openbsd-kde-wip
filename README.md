@@ -23,6 +23,7 @@ All these ports require reviews and tests.
     - :ok: [kmix](x11/kde-applications/kmix)
 - utilities
     - :ok: [kcharselect](x11/kde-applications/kcharselect)
+    - :ok: [kdebugsettings](x11/kde-applications/kdebugsettings)
     - :ok: [kbackup](x11/kde-applications/kbackup)
     - :ok: [kteatime](x11/kde-applications/kteatime)
     - :ok: [ktimer](x11/kde-applications/ktimer)
