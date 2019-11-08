@@ -242,7 +242,7 @@
      SUBDIR += libkexiv2
      #SUBDIR += libkgapi
      SUBDIR += libkipi
-     #SUBDIR += libkleo
+     SUBDIR += libkleo				# XXX todo
      SUBDIR += libkmahjongg
      SUBDIR += libkomparediff2
      SUBDIR += libksane
