@@ -53,7 +53,6 @@
      SUBDIR += kturtle
      SUBDIR += kwordquiz
      SUBDIR += marble
-     #SUBDIR += kwrite
      SUBDIR += minuet
      #SUBDIR += parley
      SUBDIR += rocs

@@ -20,7 +20,7 @@
 
 MODULES :=		devel/kf5 ${MODULES}
 VERSION ?=		18.12.0
-MASTER_SITES ?=		${MASTER_SITE_KDE:=stable/applications/${VERSION}/src/}
+MASTER_SITES ?=		${MASTER_SITE_KDE:=Attic/applications/${VERSION}/src/}
 
 # Set to 'yes' if there are .desktop files under share/applications/.
 .if defined(MODKDE5_DESKTOP_FILE) && ${MODKDE5_DESKTOP_FILE:L} == "yes"
