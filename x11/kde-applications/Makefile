@@ -1,4 +1,4 @@
-# $OpenBSD: Makefile,v 1.68 2019/04/15 18:43:35 rsadowski Exp $
+# $OpenBSD: Makefile,v 1.49 2019/11/07 10:52:51 rsadowski Exp $
 #
 # port checklist
 # - portcheck,
@@ -51,12 +51,12 @@
      SUBDIR += kmplot
      SUBDIR += ktouch
      SUBDIR += kturtle
-     SUBDIR += kwordquiz			# passed: runtime, checklist
+     SUBDIR += kwordquiz
      SUBDIR += marble
      #SUBDIR += kwrite
-     SUBDIR += minuet				# passed: runtime, checklist
-     #SUBDIR += parley				# Missing Qt5WebEngineWidgets
-     SUBDIR += rocs				# passed: runtime, checklist
+     SUBDIR += minuet
+     #SUBDIR += parley
+     SUBDIR += rocs
      SUBDIR += step
 
      # games
@@ -83,7 +83,7 @@
      SUBDIR += kmines
      SUBDIR += knavalbattle
      SUBDIR += knetwalk
-     SUBDIR += knights				# TODO fix runtime, passed: checklist
+     #SUBDIR += knights			# TODO fix runtime, passed: checklist
      SUBDIR += kolf
      SUBDIR += kollision
      SUBDIR += konquest
@@ -103,12 +103,12 @@
 
      # graphics
      SUBDIR += gwenview
-     SUBDIR += kamera				# passed: NO runtime no consumer, checklist
-     SUBDIR += kcolorchooser			# passed: runtime, checklist
+     SUBDIR += kamera
+     SUBDIR += kcolorchooser
      SUBDIR += kdegraphics-mobipocket
      SUBDIR += kdegraphics-thumbnailers		# passed: NO runtime no consumer, checklist
-     SUBDIR += kolourpaint			# passed: runtime, checklist
-     SUBDIR += kruler				# passed: runtime, checklist
+     SUBDIR += kolourpaint
+     SUBDIR += kruler
      SUBDIR += okular
      SUBDIR += spectacle
      SUBDIR += svgpart
@@ -117,21 +117,21 @@
      SUBDIR += audiocd-kio
      SUBDIR += dragon
      SUBDIR += ffmpegthumbs
-     #SUBDIR += juk
+     SUBDIR += juk
      #SUBDIR += k3b
      #SUBDIR += kamoso
      SUBDIR += kdenlive
-     SUBDIR += kmix				# passed: runtime, checklist
+     SUBDIR += kmix					# passed: runtime, checklist
      #SUBDIR += kwave
 
      # internet / network
-     SUBDIR += kdenetwork-filesharing		# passed: NO runtime, no consumer, checklist
-     SUBDIR += kget				# TODO fix runtime, passed: checklist
+     SUBDIR += kdenetwork-filesharing			# passed: NO runtime, no consumer, checklist
+     #SUBDIR += kget
      SUBDIR += kio-extras
      #SUBDIR += kmailtransport (KF5Akonadi)
-     #SUBDIR += kopete
-     SUBDIR += krdc				# passed: runtime, checklist
-     SUBDIR += krfb				# passed: runtime, checklist
+     SUBDIR += kopete					# Needs final tests
+     SUBDIR += krdc					# passed: runtime, checklist
+     SUBDIR += krfb					# passed: runtime, checklist
      SUBDIR += zeroconf-ioslave
 
      # pim
@@ -168,18 +168,18 @@
      # utilities
      SUBDIR += ark
      SUBDIR += filelight
-     SUBDIR += kbackup
+     SUBDIR += kbackup				# passed: runtime, checklist
      SUBDIR += kcalc
-     SUBDIR += kcharselect
-     #SUBDIR += kdebugsettings
+     SUBDIR += kcharselect			# passed: runtime, checklist
+     SUBDIR += kdebugsettings			# passed: runtime, checklist
      #SUBDIR += kdf
      #SUBDIR += kfloppy
-     #SUBDIR += kgpg				# needs akonadi
-     SUBDIR += kteatime
-     SUBDIR += ktimer
-     SUBDIR += kwalletmanager			# passed: runtime, checklist
+     #SUBDIR += kgpg
+     SUBDIR += kteatime				# passed: runtime, checklist
+     SUBDIR += ktimer				# passed: runtime, checklist
+     SUBDIR += kwalletmanager
      #SUBDIR += print-manager
-     SUBDIR += sweeper				# passed: runtime, checklist
+     SUBDIR += sweeper
 
      # webdev
      #SUBDIR += kimagemapeditor
@@ -204,12 +204,12 @@
      #SUBDIR += akonadi-calendar-tools
      #SUBDIR += akonadi-contacts
      #SUBDIR += akonadi-import-wizard
-     SUBDIR += akonadi-mime			# passed: no consumer, checklist
+     SUBDIR += akonadi-mime			# passed: runtime, checklist
      #SUBDIR += akonadi-notes
      #SUBDIR += akonadi-search
      #SUBDIR += akonadiconsole
      #SUBDIR += baloo-widgets
-     SUBDIR += grantleetheme			# passed: no consumer, checklist
+     SUBDIR += grantleetheme
      #SUBDIR += incidenceeditor
      #SUBDIR += kaccounts-integration
      #SUBDIR += kaccounts-providers
@@ -217,7 +217,7 @@
      #SUBDIR += kblog
      SUBDIR += kcalcore
      #SUBDIR += kcalutils
-     SUBDIR += kcontacts			# passed: no consumer, checklist
+     SUBDIR += kcontacts			# passed: runtime, checklist
      #SUBDIR += kdav
      SUBDIR += kdeedu-data
      #SUBDIR += kidentitymanagement
