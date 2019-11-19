@@ -19,7 +19,7 @@ MODKDE5_DOCS = yes
 
 MODULES +=	x11/kde-applications
 
-LIB_DEPENDS +=	devel/kf5/kauth \
+LIB_DEPENDS =	devel/kf5/kauth \
 		devel/kf5/kcodecs \
 		devel/kf5/kconfigwidgets \
 		devel/kf5/kcoreaddons \

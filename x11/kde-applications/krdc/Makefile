@@ -4,7 +4,7 @@ COMMENT =	VNC and RDP  desktop client
 DISTNAME =	krdc-${VERSION}
 CATEGORIES =	net x11
 
-SHARED_LIBS +=  krdccore               0.0 # 5.0
+SHARED_LIBS +=  krdccore               60.0 # 5.0
 
 HOMEPAGE =	https://kde.org/applications/internet/org.kde.krdc
 
@@ -21,7 +21,7 @@ MODKDE5_DESKTOP_FILE = yes
 MODKDE5_TRANSLATIONS = yes
 MODKDE5_DOCS = yes
 
-LIB_DEPENDS +=	devel/kf5/kauth \
+LIB_DEPENDS =	devel/kf5/kauth \
 		devel/kf5/kbookmarks \
 		devel/kf5/kcmutils \
 		devel/kf5/kcodecs \

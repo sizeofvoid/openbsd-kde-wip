@@ -103,6 +103,6 @@ share/locale/wa/LC_MESSAGES/kteatime.mo
 share/locale/zh_CN/LC_MESSAGES/kteatime.mo
 share/locale/zh_TW/LC_MESSAGES/kteatime.mo
 share/metainfo/
+share/metainfo/org.kde.kteatime.appdata.xml
 @tag update-desktop-database
 @tag gtk-update-icon-cache %D/share/icons/hicolor
-share/metainfo/org.kde.kteatime.appdata.xml

@@ -4,7 +4,7 @@ COMMENT =	desktop sharing
 DISTNAME =	krfb-${VERSION}
 CATEGORIES =	net x11
 
-SHARED_LIBS +=  krfbprivate               0.0 # 5.0
+SHARED_LIBS +=  krfbprivate               60.0 # 5.0
 
 HOMEPAGE =	https://kde.org/applications/internet/org.kde.krfb
 
@@ -23,7 +23,11 @@ MODKDE5_ICON_CACHE = yes
 MODKDE5_TRANSLATIONS = yes
 MODKDE5_DOCS = yes
 
-LIB_DEPENDS +=	devel/kf5/kauth \
+BUILD_DEPENDS =	devel/kf5/kcrash
+
+RUN_DEPENDS =	devel/kf5/kcrash
+
+LIB_DEPENDS =	devel/kf5/kauth \
 		devel/kf5/kcodecs \
 		devel/kf5/kcompletion \
 		devel/kf5/kconfig \
@@ -34,9 +38,11 @@ LIB_DEPENDS +=	devel/kf5/kauth \
 		devel/kf5/knotifications \
 		devel/kf5/kwallet \
 		devel/kf5/kwidgetsaddons \
+		devel/kf5/kdbusaddons \
 		devel/kf5/kxmlgui \
 		net/libvncserver \
 		x11/qt5/qtx11extras
+
 
 CONFIGURE_ARGS +=	-DCMAKE_C_FLAGS="${CFLAGS} -I${LOCALBASE}/include" \
 			-DCMAKE_CXX_FLAGS="${CXXFLAGS} -I${LOCALBASE}/include" \

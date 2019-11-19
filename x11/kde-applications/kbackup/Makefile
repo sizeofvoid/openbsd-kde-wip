@@ -14,12 +14,12 @@ WANTLIB += KF5KIOWidgets KF5Notifications KF5Service KF5Solid
 WANTLIB += KF5WidgetsAddons KF5XmlGui Qt5Concurrent Qt5Core Qt5DBus
 WANTLIB += Qt5Gui Qt5Network Qt5Widgets Qt5Xml c m
 
+MODULES +=	x11/kde-applications
+
 MODKDE5_DESKTOP_FILE = yes
 MODKDE5_ICON_CACHE = yes
 MODKDE5_TRANSLATIONS = yes
 MODKDE5_DOCS = yes
-
-MODULES +=	x11/kde-applications
 
 LIB_DEPENDS =	devel/kf5/karchive \
 		devel/kf5/kauth \

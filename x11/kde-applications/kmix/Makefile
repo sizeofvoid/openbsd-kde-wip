@@ -2,7 +2,7 @@
 
 COMMENT =	sound channel mixer and volume control
 DISTNAME =	kmix-${VERSION}
-CATEGORIES =	audio
+CATEGORIES =	audio x11
 
 HOMEPAGE =	https://kde.org/applications/multimedia/org.kde.kmix
 
@@ -21,24 +21,30 @@ MODKDE5_ICON_CACHE = yes
 MODKDE5_TRANSLATIONS = yes
 MODKDE5_DOCS = yes
 
-BUILD_DEPENDS +=devel/kf5/kinit
-RUN_DEPENDS +=	devel/kf5/kinit
+BUILD_DEPENDS =		devel/kf5/kcompletion \
+			devel/kf5/kcrash \
+			devel/kf5/solid
 
-LIB_DEPENDS +=	audio/libcanberra \
-		devel/glib2 \
-		devel/kf5/kauth \
-		devel/kf5/kcodecs \
-		devel/kf5/kconfig \
-		devel/kf5/kconfigwidgets \
-		devel/kf5/kcoreaddons \
-		devel/kf5/kglobalaccel \
-		devel/kf5/ki18n \
-		devel/kf5/kiconthemes \
-		devel/kf5/knotifications \
-		devel/kf5/kservice \
-		devel/kf5/kwidgetsaddons \
-		devel/kf5/kwindowsystem \
-		devel/kf5/kxmlgui \
-		devel/kf5/plasma-framework
+RUN_DEPENDS =		devel/kf5/kcrash \
+			devel/kf5/solid
 
+LIB_DEPENDS =		audio/libcanberra \
+			audio/pulseaudio \
+			devel/glib2 \
+			devel/kf5/kauth \
+			devel/kf5/kcodecs \
+			devel/kf5/kconfig \
+			devel/kf5/kconfigwidgets \
+			devel/kf5/kcoreaddons \
+			devel/kf5/kdbusaddons \
+			devel/kf5/kglobalaccel \
+			devel/kf5/ki18n \
+			devel/kf5/kiconthemes \
+			devel/kf5/knotifications \
+			devel/kf5/kpackage \
+			devel/kf5/kservice \
+			devel/kf5/kwidgetsaddons \
+			devel/kf5/kwindowsystem \
+			devel/kf5/kxmlgui \
+			devel/kf5/plasma-framework
 .include <bsd.port.mk>

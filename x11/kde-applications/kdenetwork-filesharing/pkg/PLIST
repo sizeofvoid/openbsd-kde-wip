@@ -1,7 +1,7 @@
 @comment $OpenBSD: PLIST,v$
 @conflict kde-l10n-*
 @conflict kde-i18n-*
-lib/qt5/plugins/sambausershareplugin.so
+@so lib/qt5/plugins/sambausershareplugin.so
 share/kservices5/sambausershareplugin.desktop
 share/locale/ar/LC_MESSAGES/kfileshare.mo
 share/locale/bg/LC_MESSAGES/kfileshare.mo

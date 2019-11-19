@@ -14,9 +14,11 @@ MODULES +=	x11/kde-applications
 
 MODKDE5_TRANSLATIONS = yes
 
-LIB_DEPENDS +=	devel/kf5/kcodecs \
+LIB_DEPENDS =	devel/kf5/kcodecs \
 		devel/kf5/kconfig \
 		devel/kf5/kcoreaddons \
 		devel/kf5/ki18n
+
+TEST_IS_INTERACTIVE =	X11
 
 .include <bsd.port.mk>

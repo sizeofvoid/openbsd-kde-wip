@@ -2,8 +2,7 @@
 
 COMMENT =	KDE Filesharing via Samba
 DISTNAME =	kdenetwork-filesharing-${VERSION}
-CATEGORIES =	devel
-
+CATEGORIES =	net devel
 
 WANTLIB += ${COMPILER_LIBCXX} KF5Completion KF5ConfigCore KF5CoreAddons
 WANTLIB += KF5I18n KF5JobWidgets KF5KIOCore KF5KIOWidgets KF5Service
@@ -14,13 +13,19 @@ MODKDE5_TRANSLATIONS = yes
 
 MODULES +=	x11/kde-applications
 
-RUN_DEPENDS +=	net/samba
+BUILD_DEPENDS =	devel/kf5/kitemviews \
+		devel/kf5/solid \
+		devel/kf5/kauth \
+		devel/kf5/kcodecs \
+		devel/kf5/kconfigwidgets
 
-LIB_DEPENDS +=	devel/kf5/kcompletion \
+LIB_DEPENDS =	devel/kf5/kcompletion \
 		devel/kf5/kconfig \
 		devel/kf5/ki18n \
 		devel/kf5/kio \
 		devel/kf5/kjobwidgets \
-		devel/kf5/kwidgetsaddons
+		devel/kf5/kwidgetsaddons \
+		devel/kf5/kservice \
+		devel/kf5/kcoreaddons
 
 .include <bsd.port.mk>

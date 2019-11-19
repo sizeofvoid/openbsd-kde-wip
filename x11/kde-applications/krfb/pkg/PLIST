@@ -131,4 +131,5 @@ share/locale/zh_CN/LC_MESSAGES/krfb.mo
 share/locale/zh_TW/LC_MESSAGES/krfb.mo
 share/metainfo/
 share/metainfo/org.kde.krfb.appdata.xml
+@tag update-desktop-database
 @tag gtk-update-icon-cache %D/share/icons/hicolor

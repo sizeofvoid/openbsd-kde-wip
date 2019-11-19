@@ -60,8 +60,8 @@ share/locale/sv/LC_MESSAGES/kbackup.mo
 share/locale/uk/LC_MESSAGES/kbackup.mo
 share/locale/zh_CN/LC_MESSAGES/kbackup.mo
 share/metainfo/
-@tag update-desktop-database
-@tag gtk-update-icon-cache %D/share/icons/hicolor
 share/metainfo/org.kde.kbackup.appdata.xml
 share/mime/packages/kbackup.xml
+@tag update-desktop-database
+@tag gtk-update-icon-cache %D/share/icons/hicolor
 @tag update-mime-database
