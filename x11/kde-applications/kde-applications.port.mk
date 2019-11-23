@@ -1,4 +1,4 @@
-# $OpenBSD: kde-applications.port.mk,v 1.3 2019/05/20 22:15:28 naddy Exp $
+# $OpenBSD: kde-applications.port.mk,v 1.4 2019/11/08 13:38:38 rsadowski Exp $
 
 # Module for KDE applications related ports, divided into 16 categories:
 # - accessibility

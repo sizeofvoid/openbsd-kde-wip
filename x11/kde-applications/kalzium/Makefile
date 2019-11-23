@@ -1,9 +1,9 @@
-# $OpenBSD: Makefile,v 1.5 2019/04/28 20:52:02 sthen Exp $
+# $OpenBSD: Makefile,v 1.7 2019/09/26 09:46:10 chrisz Exp $
 
 COMMENT =	periodic table of elements
 DISTNAME =	kalzium-${VERSION}
 CATEGORIES =	education math
-REVISION =	1
+REVISION =	3
 
 HOMEPAGE =	https://edu.kde.org/kalzium/
 
