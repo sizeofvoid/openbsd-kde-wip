@@ -7,26 +7,13 @@ All these ports require reviews and tests.
 - development
     - :ok: [akonadi](x11/kde-applications/akonadi)
     - :ok: [akonadi-mime](x11/kde-applications/akonadi-mime)
-    - :ok: [kcontacts](x11/kde-applications/kcontacts)
 - games
     - :no_entry: [knights](x11/kde-applications/knights)
        -  runtime issue: Can't find chess engine, QIODevice::write (KProcess): device not open
 - graphics
-    - :ok: [kdegraphics-thumbnailers](x11/kde-applications/kdegraphics-thumbnailers)
 - internet / network
-    - :ok: [kdenetwork-filesharing](x11/kde-applications/kdenetwork-filesharing)
     - :no_entry: [kget](x11/kde-applications/kget)
        -  runtime issue: crazy runtime behavior. Sometimes it's stuck, floating point exception
-    - :ok: [krdc](x11/kde-applications/krdc)
-    - :ok: [krfb](x11/kde-applications/krfb)
-- multimedia
-    - :ok: [kmix](x11/kde-applications/kmix)
-- utilities
-    - :ok: [kcharselect](x11/kde-applications/kcharselect)
-    - :ok: [kdebugsettings](x11/kde-applications/kdebugsettings)
-    - :ok: [kbackup](x11/kde-applications/kbackup)
-    - :ok: [kteatime](x11/kde-applications/kteatime)
-    - :ok: [ktimer](x11/kde-applications/ktimer)
 
 ## How to use this tree
 
