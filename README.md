@@ -10,10 +10,13 @@ All these ports require reviews and tests.
 - games
     - :no_entry: [knights](x11/kde-applications/knights)
        -  runtime issue: Can't find chess engine, QIODevice::write (KProcess): device not open
-- graphics
 - internet / network
     - :no_entry: [kget](x11/kde-applications/kget)
        -  runtime issue: crazy runtime behavior. Sometimes it's stuck, floating point exception
+-utilities
+    - :ok: [kdf](x11/kde-applications/kdf)
+    - :ok: [kfloppy](x11/kde-applications/kfloppy)
+    - :ok: [print-manager](x11/kde-applications/print-manager)
 
 ## How to use this tree
 
