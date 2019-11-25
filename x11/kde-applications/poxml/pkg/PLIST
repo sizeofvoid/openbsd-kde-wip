@@ -1,0 +1,10 @@
+@comment $OpenBSD: PLIST,v$
+@pkgpath x11/kde4/poxml
+@bin bin/po2xml
+@bin bin/split2po
+@bin bin/swappo
+@bin bin/xml2pot
+@man man/man1/po2xml.1
+@man man/man1/split2po.1
+@man man/man1/swappo.1
+@man man/man1/xml2pot.1
