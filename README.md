@@ -13,19 +13,6 @@ All these ports require reviews and tests.
 - internet / network
     - :no_entry: [kget](x11/kde-applications/kget)
        -  runtime issue: crazy runtime behavior. Sometimes it's stuck, floating point exception
--utilities
-    - :ok: [kdf](x11/kde-applications/kdf)
-    - :ok: [kfloppy](x11/kde-applications/kfloppy)
-    - :ok: [print-manager](x11/kde-applications/print-manager)
-- kdesdk
-     - :ok: [kapptemplate](x11/kde-applications/kapptemplate)
-     - :ok: [kcachegrind](x11/kde-applications/kcachegrind)
-     - :ok: [kde-dev-scripts](x11/kde-applications/kde-dev-scripts)
-     - :ok: [kde-dev-utils](x11/kde-applications/kde-dev-utils)
-     - :ok: [kdesdk-kioslaves](x11/kde-applications/kdesdk-kioslaves)
-     - :ok: [kdesdk-thumbnailers](x11/kde-applications/kdesdk-thumbnailers)
-     - :ok: [lokalize](x11/kde-applications/lokalize)
-     - :ok: [poxml](x11/kde-applications/poxml)
 
 ## How to use this tree
 
