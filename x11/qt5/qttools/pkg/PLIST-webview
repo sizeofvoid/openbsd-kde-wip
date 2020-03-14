@@ -1,3 +1,0 @@
-@comment $OpenBSD: PLIST-webview,v 1.1.1.1 2016/12/25 14:13:14 zhuk Exp $
-lib/qt5/cmake/Qt5Designer/Qt5Designer_QWebViewPlugin.cmake
-lib/qt5/plugins/designer/libqwebview.so
