@@ -1,4 +1,4 @@
-# $OpenBSD: Makefile,v 1.1.1.1 2019/11/23 08:02:21 rsadowski Exp $
+# $OpenBSD: Makefile,v 1.1.1.1 2019/12/10 18:14:47 rsadowski Exp $
 
 COMMENT =	convert PO files to XML
 DISTNAME =	poxml-${VERSION}

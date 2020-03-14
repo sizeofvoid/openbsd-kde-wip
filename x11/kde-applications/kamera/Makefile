@@ -1,9 +1,9 @@
-# $OpenBSD: Makefile,v 1.1.1.1 2019/11/07 10:02:12 rsadowski Exp $
+# $OpenBSD: Makefile,v 1.3 2020/02/26 22:05:44 ajacoutot Exp $
 
 COMMENT =	KDE digital camera support
 DISTNAME =	kamera-${VERSION}
 CATEGORIES =	x11 graphics
-
+REVISION =	0
 
 WANTLIB += ${COMPILER_LIBCXX} KF5Auth KF5Codecs KF5ConfigCore
 WANTLIB += KF5ConfigGui KF5ConfigWidgets KF5CoreAddons KF5I18n
@@ -14,6 +14,9 @@ WANTLIB += gphoto2 gphoto2_port m
 MODKDE5_TRANSLATIONS = yes
 
 MODULES +=	x11/kde-applications
+
+# XXX fix with new libgphoto2; revisit at next update
+CXXFLAGS +=	-I/usr/local/include -DHAVE_GPHOTO2_5
 
 LIB_DEPENDS +=	devel/kf5/kauth \
 		devel/kf5/kcodecs \

@@ -1,4 +1,4 @@
-# $OpenBSD: Makefile,v 1.1.1.1 2019/11/23 08:02:21 rsadowski Exp $
+# $OpenBSD: Makefile,v 1.1.1.1 2019/12/10 18:11:02 rsadowski Exp $
 
 COMMENT =	KDE development helper utilities
 DISTNAME =	kde-dev-utils-${VERSION}

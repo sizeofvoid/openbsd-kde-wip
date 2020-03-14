@@ -1,4 +1,4 @@
-# $OpenBSD: Makefile,v 1.1.1.1 2019/11/23 08:02:21 rsadowski Exp $
+# $OpenBSD: Makefile,v 1.1.1.1 2019/12/10 18:07:26 rsadowski Exp $
 
 COMMENT =	printing management for KDE
 DISTNAME =	print-manager-${VERSION}

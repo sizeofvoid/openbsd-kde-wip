@@ -1,4 +1,4 @@
-@comment $OpenBSD: PLIST,v$
+@comment $OpenBSD: PLIST,v 1.1.1.1 2019/12/10 18:12:53 rsadowski Exp $
 @conflict kde-l10n-*
 @conflict kde-i18n-*
 @pkgpath x11/kde4/sdk-thumbnailers

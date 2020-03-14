@@ -1,4 +1,4 @@
-# $OpenBSD: Makefile,v 1.1.1.1 2019/11/23 08:02:21 rsadowski Exp $
+# $OpenBSD: Makefile,v 1.1.1.1 2019/12/10 18:11:59 rsadowski Exp $
 
 COMMENT =	development-related KIO modules
 DISTNAME =	kdesdk-kioslaves-${VERSION}

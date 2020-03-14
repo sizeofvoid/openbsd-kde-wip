@@ -1,4 +1,4 @@
-# $OpenBSD: Makefile,v 1.1.1.1 2019/11/23 08:02:21 rsadowski Exp $
+# $OpenBSD: Makefile,v 1.1.1.1 2019/12/10 18:09:07 rsadowski Exp $
 
 COMMENT =	profile data visualization tool
 DISTNAME =	kcachegrind-${VERSION}
